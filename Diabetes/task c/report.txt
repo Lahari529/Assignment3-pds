@@ -1,0 +1,10 @@
+Bootstrap prediction for BloodPressure
+
+We used 500 bootstrap samples (each with 150 people) to estimate three important BloodPressure statistics: the average (mean), standard deviation, and 98th percentile.
+
+The average of the bootstrap means was very close to the actual population mean, showing that bootstrapping does a good job of capturing the overall average.
+
+The same was true for the standard deviation and the 98th percentile — the bootstrap results were very similar to the true population values.
+
+The histograms of the bootstrap results for each statistic showed that most of the values were grouped around the population values, with only a small amount of variation.
+
